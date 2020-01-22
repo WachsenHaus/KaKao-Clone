@@ -1,0 +1,31 @@
+<!DOCTYPE html>>
+
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-sacle=1.0">
+        <meta http-equiv="X-UA-Compatitble" content="ie=edge">
+        <title>TransFormations</title>
+<!--호버되면 스르륵 변경됩니다.-->
+<!-- state는 hover , active, focus,visited가 있습니다. -->
+        <style>
+            .box{
+                width: 500px;
+                height: 500px;
+                background-color: red;
+                /* transform: skew(20deg,30deg); */
+                transition:transform .5s ease-in-out
+            }
+            .box:hover{
+                transform: rotate(10turn) scale(.5,.5);
+            }
+
+        </style>
+    </head>
+
+    <body>
+            <div class="box">
+                Text
+            </div>
+    </body>
+</html>
